@@ -79,3 +79,7 @@ def test_linkedinuser_parent_class_has_url():
     assert "url" in methods, "The url method was not found in LinkedInUser parent class"
     assert "verified" in methods, "The verified method was not found in LinkedInUser parent class"
 
+
+def test_utils_import():
+    assert main.convert("y") is not None, "Expected a boolean returned from the function but got a None"
+    assert main.convert("y") is True, "Expected a True return value after passing 'y'"

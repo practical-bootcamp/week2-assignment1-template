@@ -80,3 +80,10 @@ class LinkedInUser:
         if self.username:
             return True
         return False
+
+
+# Import the str_to_bool utility in the utils.py module and use it in the
+# function below, passing the `string` variable to str_to_bool function and
+# return the resulting value.
+def convert(string):
+    pass
