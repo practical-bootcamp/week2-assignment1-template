@@ -6,9 +6,8 @@ def test_invalid_function():
 
 
 def test_create_urls():
-    domains = ["google.com", "bing.com", "yahoo.com"]
-    result = main.create_urls(domains)
-    assert result == ['https://google.com/', 'https://bing.com/', 'https://yahoo.com/']
+    result = main.create_urls("google.com", "bing.com", "yahoo.com")
+    assert sorted(result) == sorted(['https://google.com/', 'https://bing.com/', 'https://yahoo.com/'])
 
 
 def test_social_media_is_verified():
