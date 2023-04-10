@@ -52,3 +52,6 @@ This assignent is for week 2 (out of 4) of the Python Bootcamp for Data. The who
 - [Week 2: Python Functions and Classes](https://github.com/alfredodeza/python-functions-and-classes)
 - [Week 3: Testing In Python](https://github.com/alfredodeza/python-testing/)
 - [Week 4: Introduction to Pandas and Numpy](https://github.com/alfredodeza/pandas-and-numpy)
+
+## Bonus challenge
+Open the [bonus](./bonus) directory and then look into the [main.py](./bonus/main.py) file. It has almost the same code as the previous bonus challenge. You will need to follow the instructions in the comments to add functions and classes. This bonus assignment is not graded and will not trigger auto-grading. It is meant to be a challenge for you to practice what you learned in the course.
