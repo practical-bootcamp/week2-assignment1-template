@@ -7,14 +7,16 @@ To pass, all automated testing of your inputs have to pass their tests.
 
 # This function has a syntax error, no tests will run until this function is
 # fixed first
-#def invalid(prefix="https", domain):
-#    pass
 
+def invalid(prefix, domain):
+     pass
+
+prefix = ="https":
 
 # The following function needs to use variable arguments to work. The developer
 # created this function with a single argument which is breaking the tests. We
 # need this function to change to allow any number of arguments
-def create_urls(domains):
+def create_urls(*domains):
     return [f"https://{domain}/" for domain in domains]
 
 
