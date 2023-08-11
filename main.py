@@ -7,14 +7,14 @@ To pass, all automated testing of your inputs have to pass their tests.
 
 # This function has a syntax error, no tests will run until this function is
 # fixed first
-#def invalid(prefix="https", domain):
-#    pass
+def invalid(prefix, domain):
+  pass
 
 
 # The following function needs to use variable arguments to work. The developer
 # created this function with a single argument which is breaking the tests. We
 # need this function to change to allow any number of arguments
-def create_urls(domains):
+def create_urls(*domains):
     return [f"https://{domain}/" for domain in domains]
 
 
@@ -40,7 +40,7 @@ class Fahrenheit:
     def __init__(self, value):
         self.value = value
 
-    def as_celsius():
+    def as_celsius(self):
         return (self.value - 32) / 1.8
 
 
