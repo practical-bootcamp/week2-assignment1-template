@@ -2,7 +2,7 @@ import main
 
 
 def test_invalid_function():
-    main.invalid()
+    main.invalid("google.com")
 
 
 def test_create_urls():
