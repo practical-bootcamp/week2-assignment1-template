@@ -7,8 +7,8 @@ To pass, all automated testing of your inputs have to pass their tests.
 
 # This function has a syntax error, no tests will run until this function is
 # fixed first
-#def invalid(prefix="https", domain):
-#    pass
+def invalid(prefix="https", domain):
+    pass
 
 
 # The following function needs to use variable arguments to work. The developer
